@@ -1,0 +1,32 @@
+{
+  "name": "benkesmith-screen-manager",
+  "version": "1.0.0",
+  "description": "A Cordova plugin for managing screen orientation and rotation.",
+  "cordova": {
+    "id": "benkesmith-screen-manager",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ragcsalo/benkesmith-screen-manager.git"
+  },
+  "keywords": [
+    "cordova",
+    "screen",
+    "manager",
+    "orientation",
+    "rotation",
+    "plugin"
+  ],
+  "author": "Benke Smith <benke.smith@gmail.com>",
+  "license": "Apache-2.0",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    }
+  ]
+}
