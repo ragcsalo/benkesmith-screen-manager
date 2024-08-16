@@ -10,12 +10,9 @@
     </js-module>
 
     <platform name="android">
-        <config-file target="AndroidManifest.xml" parent="/*">
-            <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-        </config-file>
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Timer">
-                <param name="android-package" value="com.benkesmith.js_timer.Timer" />
+            <feature name="ScreenManager">
+                <param name="android-package" value="com.benkesmith.screenmanager.ScreenManager" />
             </feature>
         </config-file>
         <source-file src="src/android/ScreenManager.java" target-dir="src/com/benkesmith/screenmanager"/>
