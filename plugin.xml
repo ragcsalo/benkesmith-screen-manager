@@ -24,7 +24,8 @@
                 <param name="ios-package" value="ScreenManager" />
             </feature>
         </config-file>
-        <source-file src="src/ios/ScreenManager.swift" framework="UIKit"/>
+		<source-file src="src/ios/ScreenManager.h" />
+		<source-file src="src/ios/ScreenManager.m" />
     </platform>
 </plugin>
 
